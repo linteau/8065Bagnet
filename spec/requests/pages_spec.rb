@@ -12,6 +12,10 @@ describe "Pages" do
     
     describe "have links" do
       it { should have_link('Home')}
+      it { should have_link('Menu')}
+      it { should have_link('About')}
+      it { should have_link('Contact')}
+      it { should have_link('Hours')}      
     
     end
   end

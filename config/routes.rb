@@ -3,22 +3,30 @@ Coffee8065::Application.routes.draw do
   root :to => 'pages#home'
   
   # get "pages/home"
+  
+  match "menu",     to: "pages#menu"
 
-  get "pages/menu"
+  match 'about',    to: 'pages#about'
+  
+  match 'contact',  to: 'pages#contact'
+  
+  match 'hours',    to: 'pages#hours'
+  
 
-  get "pages/about"
-
-  get "pages/contact"
-
-  get "pages/hours"
-
-  get "home/menu"
-
-  get "home/about"
-
-  get "home/contact"
-
-  get "home/hours"
+  # 
+  # get "pages/about"
+  # 
+  # get "pages/contact"
+  # 
+  # get "pages/hours"
+  # 
+  # get "home/menu"
+  # 
+  # get "home/about"
+  # 
+  # get "home/contact"
+  # 
+  # get "home/hours"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
