@@ -3,7 +3,7 @@
 body{
 	background-image:url('/images/wood_03.jpg');
 }
-
+// styles header and navbar
 div.navbar-inner{
 	height:50px;
 	background-image:url('/images/wood_01.jpg');
@@ -26,7 +26,7 @@ div.navbar-inner{
 	}
 }
 
-
+// styles logo on top left of screen
 #logo {
   float: left;
   margin-right: 10px;
@@ -43,6 +43,7 @@ div.navbar-inner{
 	}
 }
 
+// this styles the home page
 .outline{
 	margin-top: -30px;
 	background-color:white;
@@ -51,18 +52,39 @@ div.navbar-inner{
 	background-repeat:no-repeat;
 	background-size:100%;
 }
+
+
+// this styles the main background for all but the home pge
 div.main-outline{
+	margin-top:-20px;
 	background-color:white;
-	min-height:500px;
+	min-height:auto;
 	background-image:url('/images/stars_02.jpg');
 	background-repeat:no-repeat;
 	background-size:100%;
-	ul{
+	z-index:-1;
+	// this styles the menu page
+	div.row{
+		padding-top:30px;
+	}
+	// this styles the menu page, especially images at bottom
+	div.row.bottom{
+		padding-bottom:25px;
 		text-align:center;
+		position:relative;
+		left:20px;
+		img.menu{
+			border-radius:7px;
+		}
+	}
+	// This styles the menu lists
+	ul{
 		li.title{
-			text-align:center;
-			font-size:30px;
-			margin-bottom:5px;
+			font-size:32px;
+			margin-bottom:10px;
+		}
+		li{
+			font-size:16px;
 		}
 		span{
 			float:right;
@@ -70,6 +92,8 @@ div.main-outline{
 		list-style:none;
 	}
 }
+
+// Styles footer
 .footer{
 	margin-top:-10px;
 	height:50px;
