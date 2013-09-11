@@ -1,1 +1,62 @@
 @import "bootstrap";
+
+body{
+	background-image:url('/images/wood_03.jpg');
+}
+
+div.navbar-inner{
+	background-image:url('/images/wood_01.jpg');
+	background-repeat:repeat;
+	background-size:100%;
+}
+a{
+	color:white;
+	&:visited{
+		color:white;
+	};
+}
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  line-height: 1;
+	&:hover {
+		color: white;
+		text-decoration: none;
+	}
+}
+
+.outline{
+	margin-top: -30px;
+	background-color:white;
+	min-height:500px;
+	background-image:url('/images/home.jpg');
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+div.menu-outline{
+	margin-top: -20px;
+	background-color:white;
+	min-height:500px;
+	background-image:url('/images/stars_02.jpg');
+	background-repeat:no-repeat;
+	background-size:100%;
+	ul{
+		text-align:center;
+		li.title{
+			text-align:center;
+			font-size:30px;
+			margin-bottom:5px;
+		}
+		span{
+			float:right;
+		}
+		list-style:none;
+	}
+}
