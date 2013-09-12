@@ -44,18 +44,45 @@ div.navbar-inner{
 }
 
 // this styles the home page
-.outline{
-	margin-top: -30px;
+div.outline{
+	margin-top: -20px;
 	background-color:white;
 	min-height:500px;
 	background-image:url('/images/home.jpg');
 	background-repeat:no-repeat;
 	background-size:100%;
+	div.row{
+		position:relative;
+		top:280px;
+		.home{
+			border-radius:5px;
+			padding:5px 10px 5px 10px;
+		background-color:black;
+		opacity:.8;
+		h3,p{
+			color:white;		
+			}
+		}
+	}
 }
-
-
+// description text for contact and about page
+div.row{
+	.contact-heading{
+		padding-top:15px;
+	}
+	div{
+		p{
+			font-size:22px;
+			line-height:25px;
+		}
+	}
+	
+}
 // this styles the main background for all but the home pge
 div.main-outline{
+	.about{
+		padding-bottom:50px;
+	}
 	margin-top:-20px;
 	background-color:white;
 	min-height:auto;
@@ -111,4 +138,11 @@ div.main-outline{
 		}
 		list-style:none;
 	}
+}
+
+// contact page 
+img.contact{
+	position:relative;
+	top:20px;
+	border-radius:5px;
 }
