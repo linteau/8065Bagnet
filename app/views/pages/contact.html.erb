@@ -2,7 +2,7 @@
 	<div class="row">
 	  <div class="span4 offset1"><h1>CONTACT US</h1></div>
 	</div>
-	<div class="row">
+	<div class="row lrg">
 	  <div class="span5 offset1">
 			<h2>Our shop...</h2>
 			<p>Coffee 8065<br>
@@ -13,11 +13,11 @@
 			<h2 class="contact-heading">Have a question?</h2>
 			<p>Call us at 501-0913</p>
 			<h2 class="contact-heading">We are Social</h2>
-			<p>Follow us twitter.</p>
-			<p>Like our Facebook page</p>
+			<!-- <p>Follow us twitter. </p> -->
+			<p><%=link_to(image_tag('https://s3.amazonaws.com/coffeehouse/fb.png'))%> Like our FB page</p>
 		</div>
 		<div class="span4 offset1">
-			<%=image_tag('/images/canPhone.jpg',class:"contact")%>
+			<%=image_tag('https://s3.amazonaws.com/coffeehouse/canPhone.jpg',class:"contact")%>
 		</div>
 	</div>
 	<div class="about"></div>

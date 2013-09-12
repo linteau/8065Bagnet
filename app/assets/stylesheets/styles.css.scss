@@ -1,12 +1,12 @@
 @import "bootstrap";
 
 body{
-	background-image:url('/images/wood_03.jpg');
+	background-image:url('https://s3.amazonaws.com/coffeehouse/wood_03.jpg');
 }
 // styles header and navbar
 div.navbar-inner{
 	height:50px;
-	background-image:url('/images/wood_01.jpg');
+	background-image:url('https://s3.amazonaws.com/coffeehouse/wood_01.jpg');
 	background-repeat:repeat;
 	background-size:100%;
 	ul{
@@ -48,7 +48,7 @@ div.outline{
 	margin-top: -20px;
 	background-color:white;
 	min-height:500px;
-	background-image:url('/images/home.jpg');
+	background-image:url('https://s3.amazonaws.com/coffeehouse/home.jpg');
 	background-repeat:no-repeat;
 	background-size:100%;
 	div.row{
@@ -66,7 +66,7 @@ div.outline{
 	}
 }
 // description text for contact and about page
-div.row{
+div.lrg{
 	.contact-heading{
 		padding-top:15px;
 	}
@@ -86,7 +86,7 @@ div.main-outline{
 	margin-top:-20px;
 	background-color:white;
 	min-height:auto;
-	background-image:url('/images/stars_02.jpg');
+	background-image:url('https://s3.amazonaws.com/coffeehouse/stars_02.jpg');
 	background-repeat:no-repeat;
 	background-size:100%;
 	z-index:-1;
@@ -124,7 +124,7 @@ div.main-outline{
 .footer{
 	margin-top:-10px;
 	height:50px;
-	background-image:url('/images/wood_01.jpg');
+	background-image:url('https://s3.amazonaws.com/coffeehouse/wood_01.jpg');
 	z-index:1;
 	background-size:100%;
 	small{
@@ -135,6 +135,10 @@ div.main-outline{
 		li{
 			float:left;
 			padding:10px;
+			img{
+				height:25px;
+				padding-right:5px;
+			}
 		}
 		list-style:none;
 	}
@@ -144,5 +148,10 @@ div.main-outline{
 img.contact{
 	position:relative;
 	top:20px;
+	border-radius:5px;
+}
+img.hours{
+	position:relative;
+	top:-80px;
 	border-radius:5px;
 }
