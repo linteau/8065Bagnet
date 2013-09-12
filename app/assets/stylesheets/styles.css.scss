@@ -14,7 +14,9 @@ div.navbar-inner{
 		li{
 			font-size:17px;
 			a{
-				color:white;
+				&:link{
+				color:orange;
+			}
 				&:visited{
 					color:orange;
 				}
