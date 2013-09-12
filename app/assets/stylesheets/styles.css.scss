@@ -3,6 +3,7 @@
 body{
 	background-image:url('https://s3.amazonaws.com/coffeehouse/wood_03.jpg');
 }
+
 // styles header and navbar
 div.navbar-inner{
 	height:50px;
@@ -137,6 +138,17 @@ div.main-outline{
 		li{
 			float:left;
 			padding:10px;
+			a{
+				&:link{
+				color:orange;
+			}
+				&:visited{
+					color:orange;
+				}
+				&:hover{
+					color:#eee !important;
+				}
+			}
 			img{
 				height:25px;
 				padding-right:5px;
