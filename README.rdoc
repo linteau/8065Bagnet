@@ -8,3 +8,5 @@ I have a link to the site, and currently it is set to a heroku url.
 
 I will get the real url up and running when I am 100% finished.
 
+This site is cool.
+
