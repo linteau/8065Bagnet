@@ -1,13 +1,19 @@
 @import "bootstrap";
 
 body{
-	background-image:url('https://s3.amazonaws.com/coffeehouse/wood_03.jpg');
+	background-color:$grayDark;
+	
+}
+.navbar{
+	background-color:black;
 }
 
+.center{
+	text-align:center;
+}
 // styles header and navbar
 div.navbar-inner{
 	height:50px;
-	background-image:url('https://s3.amazonaws.com/coffeehouse/wood_01.jpg');
 	background-repeat:repeat;
 	background-size:100%;
 	ul{
@@ -16,10 +22,10 @@ div.navbar-inner{
 			font-size:17px;
 			a{
 				&:link{
-				color:orange;
+				color:red;
 			}
 				&:visited{
-					color:orange;
+					color:red;
 				}
 				&:hover{
 					color:#eee !important;
@@ -40,6 +46,13 @@ div.navbar-inner{
   padding-top: 9px;
   font-weight: bold;
   line-height: 1;
+	span{
+		color:red;
+	}
+	a{
+		color: white;
+		text-decoration: none;
+	}
 	&:hover {
 		color: white;
 		text-decoration: none;
@@ -50,20 +63,20 @@ div.navbar-inner{
 div.outline{
 	margin-top: -20px;
 	background-color:white;
-	min-height:500px;
-	background-image:url('https://s3.amazonaws.com/coffeehouse/home.jpg');
+	min-height:550px;
+	background-image:url('https://s3-us-west-2.amazonaws.com/bagnet/bwbnet.jpg');
 	background-repeat:no-repeat;
 	background-size:100%;
 	div.row{
 		position:relative;
-		top:280px;
+		top:350px;
 		.home{
 			border-radius:5px;
 			padding:5px 10px 5px 10px;
 		background-color:black;
 		opacity:.8;
 		h3,p{
-			color:white;		
+			color:red;		
 			}
 		}
 	}
@@ -89,11 +102,16 @@ div.main-outline{
 	.about{
 		padding-bottom:50px;
 	}
+	.center{
+		padding-top:25px;
+		font-size:35px;
+		font-weight:bold;
+	}
 	margin-top:-20px;
 	background-color:white;
 	min-height:auto;
 	background-image:url('https://s3.amazonaws.com/coffeehouse/stars_02.jpg');
-	background-repeat:no-repeat;
+	background-repeat:repeat;
 	background-size:100%;
 	z-index:-1;
 	// this styles the menu page
@@ -130,7 +148,7 @@ div.main-outline{
 .footer{
 	margin-top:-10px;
 	height:50px;
-	background-image:url('https://s3.amazonaws.com/coffeehouse/wood_01.jpg');
+	background-color:black;
 	z-index:1;
 	background-size:100%;
 	small{
@@ -143,10 +161,10 @@ div.main-outline{
 			padding:10px;
 			a{
 				&:link{
-				color:orange;
+				color:red;
 			}
 				&:visited{
-					color:orange;
+					color:red;
 				}
 				&:hover{
 					color:#eee !important;
